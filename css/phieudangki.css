@@ -1,0 +1,14 @@
+h1.name{
+    color: aquamarine;
+}
+table{
+    border: 1px outset black;
+    background-color: greenyellow; width: 100%;
+}
+th{
+    border: 1px outset black;
+    background-color: greenyellow; width: 10%;
+}
+td{
+    border: 1px outset black;
+    background-color: greenyellow;}

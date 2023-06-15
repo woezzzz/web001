@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+<head>
+	<title>Phieu dang ki tham gia chuong trinh khuyen mai</title>
+	<link href="css/phieudangki.css" rel="stylesheet">
+</head>
+<body>
+
+	<header>
+		<h1 class="name">Phieu dang ki tham gia chuong trinh khuyen mai</h1>
+	</header>
+	<main>
+		<table>
+			<tr>
+				<td>Ho va ten</td>
+				<td>
+					<input type="text" name="hovaten" placeholder="Nhap ho va ten"></td>
+			</tr>
+			<tr>
+				<td>Dia chi</td>
+				<td><input type="text" name="diachi" placeholder="Dia chi"></td>
+			</tr>
+			<tr>
+				<td>Dien thoai</td>
+				<td><input type="text" name="dienthoai" placeholder="Dienthoai"></td>
+			</tr>
+			<tr>
+				<td>Phai</td>
+				<td><label for="phai"></label>
+					<input type="radio" name="phai" value="0">Nam
+					<input type="radio" name="phai" value="1">Nữ
+					<input type="radio" name="phai" value="2">Khong xac dinh</td>
+			</tr>
+			<tr>
+				<td>Nghe nghiep</td>
+				<td><label for="nnghenghiep" multiple></label>
+					<select name="nghenghiep">
+						<optgroup label="Lao dong pho thong">
+							<option>Phu ho</option>
+							<option>Buon ban tu do</option>
+						</optgroup>
+						<optgroup label="Lao dong tri oc">
+							<option>Giao vien</option>
+							<option>Bac si</option>
+						</optgroup>
+						<option value="kh">Khac</option>
+					</select></td>
+			</tr>
+			<tr>
+				<td>Chon san pham tham gia</td>
+				<td><label for="loai">Chon san pham:</label>
+					<select name="loai" id="loai">
+						<option value="kem">Kem danh rang</option>
+						<option value="banchai">Ban chai</option>
+						<option value="dauogi">Dau goi</option>
+						<option value="suatam">Suatam</option>
+						<option value="daocao">Dao cao rau</option>
+					</select>
+			</tr>
+			<tr>
+				<td>So nguoi du doan tham gia</td>
+				<td><input type="number" name="songuoidudoan" placeholder="songuoidudoan"></td>
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align: center;"><button type="submit" style="margin: 5px 0 5px 0;padding: 15px;background-color: greenyellow;border: 0;cursor: zoom-out;">Dong y</button>
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align: center;color: red;">Ban da dang ki thanh cong</td>
+			</tr>
+		</table>
+	</main>
+	<footer>Đây là chân trang web</footer>
+</body>
+<script src="/js/script.js"></script>
+</html>
