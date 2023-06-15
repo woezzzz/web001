@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+<head>
+	<title>Trang web của Nguyễn Văn A</title>
+	<meta description="Nguyễn Văn A là người nổi tiếng">
+	<meta keywords="Nguyen Van A,Nguyễn Văn A">
+
+	<meta charset="UTF-8">
+	<link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+	<header>
+		<h1 class="name">Trang chủ của Nguyễn Văn A</h1>
+	</header>
+	<nav>
+		<ul>
+			<li class="topnav"><a href="index.html">Trang chủ</a></li>
+			<li class="topnav"><a href="sanpham.html">Sản phẩm</a></li>
+			<li class="topnav"><a href="lienhe.html">Liên hệ</a></li>
+			<li class="topnav"><a href="baitap5">Bai tap 5</a></li>
+		</ul>
+	</nav>
+	<aside>
+		<div id="info">
+			<h2>Xin chào, tôi là A</h2>
+			<p>Tôi là sinh viên đang học HTML.</p>
+			<p>Tôi là sinh viên đang học CSS.</p>
+			<p>Tôi là sinh viên đang học Javascript.</p>
+		</div>
+		<div id="adv"><img src="/images/hinh1.jpg" width="200px" height="200px"></div>
+		<div id="stat">Thống kê truy cập</div>
+
+	</aside>
+	<main>
+		<h2 class="bt5_tieude">dinh dang van ban</h2>
+		<b><u>hoa hoc</u></b>
+	</main>
+	<footer>Đây là chân trang web</footer>
+</body>
+<script src="/js/script.js"></script>
+</html>

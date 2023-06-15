@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1.tieude1{
+    background-color: aquamarine;
+}
+h1.tieude2{
+    background-color: yellow;
+}
+h2{
+    background-color: bisque;
+}
+h1.name{
+    padding: 95px;
+    color: rgb(10, 63, 63);
+    font-size: 50pt;
+    font-weight: bold;
+}
+header{
+    height: 240px;
+    background-image: url(/image/header-bg.jpg);
+    text-align: center;
+}
+nav{
+    background-image: url(/image/vfjsj.jpg);
+}
+li.topnav{
+    display: inline;
+}
+li.topnav a{
+    text-decoration: none;
+    color: black;
+    padding-left: 40px;
+    padding-right:40px;
+
+}
+li.topnav a:hover {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    padding-left: 400px;
+   
+}
+aside{
+    background-color: rgb(172, 230, 164); float: left; width: 15%;
+}
+main{
+    background-color: rgb(165, 220, 238);float: left; width: 80%;
+}
+footer{
+    clear: both; text-align: center; background-color: rgb(204, 140, 204);
+}
+#info{
+    background-color: lightslategray; color: navy; padding: 5px 5px 5px 5px; margin: 5px 5px 5px 5px ;
+}
+#info h2{
+    background-color: rgb(199, 210, 221); color: rgb(13, 13, 44); padding: 5px 5px 5px 5px; text-align: center;
+}
+#info p{
+    background-color: rgba(255, 254, 177, 0.829); color: rgb(100, 23, 23);  text-align: left;
+}
+.tieude{
+    color: antiquewhite; font-weight: 1000; font-size: 20px; font-family: 'Times New Roman', Times, serif; text-align: center;
+}
+div.khung{
+    padding-top: 10px; background-color: bisque; text-align: center; font-style: italic;
+}
+.phude{
+    color: black; font-weight: 800; font-size: 30px; font-family: 'Times New Roman', Times, serif;
+}
+.doan1{
+    color: blue;
+}
+.doan2{
+    padding-top: 10px; color: red;
+}
+/* phan nay danh cho trang san pham */
+.sp {
+    width: 150px; height: 150px; background-color: bisque;
+}

@@ -1,0 +1,178 @@
+    /* đây là ghi chú của CSS */
+    * {
+        margin: 0;
+        padding: 0;
+        /* border: 0; */
+        font-size: 100%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    h2 {
+        background-color: yellowgreen;
+    }
+    h1.tieude1 {
+        background-color: #ff95ca;
+    }
+    h1.tieude2 {
+        background-color: #e3f777;
+    }
+    header {
+        height: 120px;
+        background-image: url("/images/header-bg.jpg");
+        text-align: center;
+    }
+    /* Đây là style cho header ở trang index */
+    h1.name {
+        padding-top: 40px;
+        color: #56eb29;
+        font-size: 26pt;
+        font-weight: bold;
+    }
+
+    nav {
+        background-image: url("/images/nav-bg.jpg");
+        padding: 10px 0 10px 0;
+    }
+
+    li.topnav {
+        display: inline;
+
+    }
+    li.topnav a {
+        text-decoration: none;
+        color: black;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    li.topnav a:hover {
+        color: red;
+   
+        padding-left: 30px;
+    }
+
+    aside {
+        background-color: #56eb29;
+        float: left;
+        width: 20%;
+    }
+
+    main {
+        background-color: #ceb9f3;
+        float: left;
+        width: 80%;
+    }
+    
+    footer {
+        clear: both;
+        text-align: center;
+        background-color: rgb(255, 86, 247);
+        padding: 15px 0 15px 0;
+
+    }
+
+    #info {
+        background-color: #ff0000;
+        color: #fff;
+        padding: 5px 5px 5px 5px;
+        margin: 5px 5px 5px 5px;
+    }
+    #info h2 {
+        background-color: #00b7ff;
+        color: #fff;
+        padding: 5px 5px 5px 5px;
+        text-align: center;
+    }
+    #info p {
+        color: #FF0;
+    }
+
+    .tieude {
+        color: green;
+        font-weight: bold;
+        font-size: 20pt;
+        font-family: 'Times New Roman', tahoma;
+        text-align: center;
+        text-decoration:overline;
+    }
+    .phude {
+        color: blue;
+        font-weight: bold;
+        font-size: 20pt;
+        font-family: 'Times New Roman', tahoma;
+    }
+    .me {
+        text-align: center;
+        color: #FF3399;
+        background-color: #FECFFD;
+        font-weight: bold;
+        font-size: 40pt;
+        font-family: 'Times New Roman', tahoma;
+        /* margin-bottom: 40px; */
+        margin: 5px 0 30px 0;
+    }
+    .khung {
+        background-color: #FFFFCC;
+        text-align: center;
+        line-height: 1.4em;
+        font-style: italic;
+
+    }
+    .doan1 {
+        color: red;
+    }
+    .doan2 {
+        color: green;
+        padding-top: 20px;
+    }
+    .doan3 {
+        color: blue;
+        padding-top: 20px;
+    }
+
+
+    /* Phan nay cua trang lien he */
+    .lienhe_wrap {
+        padding: 15px;
+    }
+    .tieudelienhe {
+        text-align: center;
+        color: #FF0;
+        font-size: 20pt;
+    }
+    #gui {
+        color: #ff0000;
+        padding: 20px;
+        font-size: 40pt;
+        background-color: #FF0;
+        border: 0;
+        cursor:col-resize;
+    }
+    /* phan nay danh cho trang san pham */
+.sp img {
+    width: 120px; height: 120px; padding-left: 75px; padding-top: 50px;
+}
+.sp{
+    width: 250px; height: 250px; background-color: rgb(146, 138, 128); float: left; margin: 2px;
+
+}
+.sp p {
+    text-align: center;
+}
+.spname{
+    font-weight: 800; color: #fff;
+}
+.spprice{
+    color: rgb(0, 255, 76); font-weight: bold; padding-bottom: 5px;
+
+}
+.sp a {
+    padding-left: 150px; text-decoration: none; display: block; color: white; border-radius: 15px; width: 195px; height: 25px; 
+    background: #00b7ff; padding: 5px 10px 0px 10px; text-align: center; font-weight: bold; margin-left: 18px;
+}
+.sp a:hover {
+    background: #FF0; color: #56eb29;
+}
+/* bt5 */
+.maudo{ color:#ff0000}
+.vonglap .p1 {font-family: Cascadia; background: rgb(206, 179, 160);color: blue; padding-left: 90px;padding-top: 15px;}
+.vonglap .p2 {font-family: Cascadia; background: rgb(206, 179, 160);color: blue;padding: 15px 0px 15px 120px}
+

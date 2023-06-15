@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Trang web của Nguyễn Văn A</title>
+	<meta description="Nguyễn Văn A là người nổi tiếng">
+	<meta keywords="Nguyen Van A,Nguyễn Văn A">
+
+	<meta charset="UTF-8">
+	<link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+	<header>
+		<h1 class="name">Trang chủ của Nguyễn Văn A</h1>
+	</header>
+	<nav>
+		<ul>
+			<li class="topnav"><a href="index.html">Trang chủ</a></li>
+			<li class="topnav"><a href="sanpham.html">Sản phẩm</a></li>
+			<li class="topnav"><a href="lienhe.html">Liên hệ</a></li>
+			<li class="topnav"><a href="baitap5.html">Bai tap 5</a></li>
+		</ul>
+	</nav>
+	<aside>
+		<div id="info">
+			<h2>Xin chào, tôi là A</h2>
+			<p>Tôi là sinh viên đang học HTML.</p>
+			<p>Tôi là sinh viên đang học CSS.</p>
+			<p>Tôi là sinh viên đang học Javascript.</p>
+		</div>
+		<div id="adv"><img src="/images/hinh1.jpg" width="200px" height="200px"></div>
+		<div id="stat">Thống kê truy cập</div>
+
+	</aside>
+	<main>
+		<div class="lienhe_wrap">
+			<h3 class="tieudelienhe">Liên hệ</h3>
+			<form action="xuly.php" type="POST">
+				<label for="hovaten">Họ và tên:</label>
+				<input type="text" name="hovaten" placeholder="Nhập họ và tên">
+				
+				<br><label for="gioitinh">Giới tính:</label>
+				<input type="radio" name="gioitinh" value="0">Nam
+				<input type="radio" name="gioitinh" value="1">Nữ
+				
+				<br><label for="noisinh">Nơi sinh</label>
+				<select name="noisinh">
+					<option value="tphcm">Tp.Hồ Chí Minh</option>
+					<option value="dn">Đồng Nai</option>
+					<option value="bd">Bình Dương</option>
+					<option value="tn">Tây Ninh</option>
+				</select>
+
+				<br><label for="ngaysinh">Ngày sinh</label>
+				<input type="date" name="ngaysinh">
+
+				<br><label for="loai">Loại liên hệ</label>
+				<input type="checkbox" name="type1"> Khiếu nại sản phẩm
+				<input type="checkbox" name="type2"> Báo lỗi trang web
+				<input type="checkbox" name="type3"> Yêu cầu trả hàng<br>
+				
+				<br><label for="hinh">Hình sản phẩm</label>
+				<input type="file" name="hinh">
+
+				<br><label for="ghichu">Ghi chú</label>
+				<textarea name="ghichu" cols="50" rows="5"></textarea>
+
+				<br>
+				<input type="submit" id="gui" value="Gửi">
+				<input type="reset" value="Hủy">
+			</form>
+		</div>
+		
+	</main>
+	<footer>Đây là chân trang web</footer>
+</body>
+<script src="/js/script.js"></script>
+
+</html>
